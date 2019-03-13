@@ -1,0 +1,128 @@
+*{
+	font-family: 'Quicksand', sans-serif;
+}
+/*PAGINA DE LOGIN*/
+body{
+	background-color: #e2e2e2;
+	background-size: cover;
+	overflow-x: hidden;
+}
+.titulos h2{
+	font-size: 30px;
+}
+.titulos-2{
+	text-align: center;
+	margin-top: 30px;
+}
+.titulos-2 h3{
+	font-size: 40px;
+}
+.box{
+	max-width: 500px;
+	width: 100%;
+	background-color: white;
+	padding: 50px 5%;
+
+}
+.box input[type="text"]{
+	margin-top: 6px;
+	margin-bottom: 10px;
+	height: 35px;
+}
+.box input[type="password"]{
+	margin-top: 6px;
+	margin-bottom: 20px;
+	height: 35px;
+}
+.box input[type="submit"]{
+	margin-bottom: 10px;
+	height: 35px;
+	border: none;
+	color: white;
+	font-size: 20px;
+}
+.merda{
+	text-align: center;
+	margin-top: 30px;
+}
+/*FIM DA PAGINA DE LOGN*/
+
+.navbar-brand img{
+	width: 150px;
+}
+
+.icone{
+	position: fixed;
+	padding: 2px 9px;
+	z-index: 99999;
+	display: none;
+}
+.icone i{
+	font-size: 30px;
+	cursor: pointer;
+}
+.container-fluid{
+	margin-top: 67px;
+}
+.sidebar{
+	position: fixed;
+	z-index: 9999;
+	height: 100%;
+	overflow-y: scroll;
+}
+.blocos{
+	margin-top: 10px;
+	width: 100%;
+	height: 150px;
+	padding: 5px 8px; 
+	margin-right: 5px;
+}
+.blocos h2{
+	text-align: center;
+	font-size: 50px;
+	font-weight: bold;
+}
+.edicao{
+	margin-top: 25px;
+}
+.edicao h2 h3{
+	border-left: 3px solid orange; 
+}
+.edicao input[type="file"]{
+	width: 100%;
+
+}
+.edicao input[type="submit"]{
+	margin-top: 10px;
+	width: 100px;
+}
+.out{
+	display: none;
+}
+.in{
+	display: block;
+}
+.new{
+	font-size: 20px;
+}
+.lixo{
+	font-size: 20px;
+	padding: 5px;
+}
+
+
+
+/*MEDIA'S QUERIES*/
+@media screen and(max-width: 500px){
+	.titulos h2{
+		font-size: 30px;
+	}
+	body{
+		background-position: right;
+	}
+}
+@media screen and (max-width: 987px){
+	.icone{
+		display: block;
+	}
+}

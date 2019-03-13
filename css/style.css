@@ -1,0 +1,193 @@
+*{
+	font-family: 'Staatliches', cursive;
+}
+body{
+	overflow-x: hidden;
+}
+.right1{
+	float: right;
+}
+.left{
+	float: left;
+}
+.desktop ul{
+	list-style-type: none;
+}
+.desktop ul li{
+	margin-top: 5px; 
+	display: inline-block;
+	padding: 10px 20px;
+}
+.desktop ul li a{
+	text-decoration: none;
+	font-size: 20px;
+	color: white;
+}
+header{
+	background-color: #1c1e0f;
+	color: white;
+}
+.banner{
+	height: 70vh;
+	background-image: url('../images/banner-1.jpg');
+	background-size: cover;	
+	text-align: center;
+	z-index: 2;
+}
+.banner2{
+	z-index: 1;
+}
+.maps{
+	width: 100%;
+	height: 50vh;
+}
+.chamada h2{
+	width: 100%;
+	font-size: 43px;
+	color: white;
+	padding-top: 100px;
+}
+.chamada input[type="email"]{
+	width: 380px;
+	height: 40px;
+	padding-left: 10px;
+	margin-bottom: 10px; 
+}
+.chamada input[type="submit"]{
+	width: 380px;
+	height: 40px;
+	font-size: 22px;
+}
+.fades{
+	background-color: rgba(28, 28, 28, 0.6)
+;
+	height: 100%;
+}
+.servicos h2{
+	font-size: 50px;
+	text-align: center;
+	margin-top: 20px;
+}
+.linha{
+	width: 100%;
+	padding: 0 30%;
+	background-color: rgba(28, 28, 28, 0.6);
+	height: 6px;
+	margin-bottom: 20px;
+}
+.servicos{
+	text-align: center;
+}
+.card{
+	margin-bottom: 20px;
+}
+.sobre h2{
+	font-size: 38px;
+}
+.sobre-img img{
+	width: 100%;
+}
+footer{
+	background-color: #1c1e0f;
+	width: 100%;
+	text-align: center;
+	color: white;
+	padding: 30px 0;
+	margin-top: 20px;
+}
+footer .item{
+	margin-bottom: 20px;
+}
+.center{
+	text-align: center;
+}
+.mobile{
+	display: none;
+}
+.mobile ul{
+	position: absolute;
+	list-style-type: none;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	margin-top: 90px;
+	font-size: 30px;
+	background-color: #1c1e0f; 
+	width: 100%;
+	text-align: right;
+	padding: 0 3%;
+	display: none;
+
+}
+
+.mobile a{
+	color: white;
+}
+.mobile i{
+	font-size: 30px;
+	cursor: pointer;
+}
+.forms{
+	max-width: 760px;
+}
+.contato form input[type="text"]{
+	margin-bottom: 20px;
+	height: 40px;
+}
+.contato form input[type="email"]{
+	margin-bottom: 20px;
+	height: 40px;
+}
+.contato form input[type="submit"]{
+	margin-bottom: 20px;
+	height: 40px;
+}
+.contato form textarea{
+	margin-bottom: 20px;
+	resize: none;
+	height: 70px;
+}
+.email{
+	width: 420px;
+	padding-left: 15px; 
+}
+.telefone{
+	width: 365px;
+	padding-left: 15px; 
+}
+.meio, .telefone{
+	display: inline-block;
+	margin-right: -3px;
+}
+.meio{
+	width: 100%;
+}
+.contato-titulos{
+	margin-top: 20px;
+	text-align: center;
+}
+
+
+@media screen and (max-width: 600px){
+	.chamada input[type="email"]{
+	width: 100%; 
+	}
+	.chamada input[type="submit"]{
+	width: 100%;
+	}
+	.desktop{
+		display: none;
+	}
+	.mobile{
+		display: block;
+	}
+	.email{
+		width: 100%;
+	}
+	.telefone{
+		width: 100%;
+	}
+	.forms{
+		padding: 3%;
+	}
+}
